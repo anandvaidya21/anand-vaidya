@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anand Vaidya — AI/ML student, data analyst and digital builder.">
+    <title>Anand Vaidya — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
+    <nav id="navbar" aria-label="Primary navigation">
+        <div class="nav-shell">
+            <a href="#top" class="wordmark" aria-label="Anand Vaidya home">AV<span>®</span></a>
+            <div class="nav-links">
+                <a href="#work">Work</a><a href="#data">Data</a><a href="#ml">ML Lab</a><a href="#experience">Journey</a>
+            </div>
+            <a href="#contact" class="nav-cta">Let's create <i data-lucide="arrow-up-right"></i></a>
+            <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false"><i data-lucide="menu"></i></button>
+        </div>
+        <div class="mobile-menu"><a href="#work">Work</a><a href="#data">Data</a><a href="#ml">ML Lab</a><a href="#experience">Journey</a><a href="#contact">Contact</a></div>
+    </nav>
+
+    <main id="top">
+        <section class="hero section-pad">
+            <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+            <div class="hero-grid container">
+                <div class="hero-copy">
+                    <p class="kicker reveal"><span class="status-dot"></span> Available for ambitious ideas · 2026</p>
+                    <h1 class="hero-title reveal">I turn <em>curiosity</em><br>into <span>digital</span><br>experiences.</h1>
+                    <p class="hero-intro reveal">Hey, I’m <strong>Anand Vaidya</strong> — an AI/ML student, data analyst, and creative developer building useful things with equal parts logic and taste.</p>
+                    <div class="hero-actions reveal"><a href="#work" class="button button-acid">Explore selected work <i data-lucide="arrow-down-right"></i></a><a href="#contact" class="text-link">Start a conversation <i data-lucide="move-up-right"></i></a></div>
+                </div>
+                <div class="hero-visual reveal">
+                    <div class="portrait-note note-top">currently<br>learning <span>everything.</span></div>
+                    <div class="portrait-frame"><span class="frame-index">01 / 05</span><img src="images/anand-portrait.jpg" alt="Portrait of Anand Vaidya"><div class="portrait-shade"></div><p class="portrait-label">ANAND VAIDYA<br><span>BUILDER / ANALYST / ATHLETE</span></p></div>
+                    <div class="round-stamp" aria-hidden="true"><span>CREATE · QUESTION · CREATE · QUESTION · </span><i data-lucide="sparkles"></i></div>
+                </div>
+            </div>
+            <div class="hero-bottom container reveal"><p>BASED IN INDIA <span>↗</span></p><p>AI · DATA · WEB · VISUALS</p><a href="#about">SCROLL TO ENTER <i data-lucide="arrow-down"></i></a></div>
+        </section>
+
+        <div class="ticker" aria-label="Areas of practice"><div class="ticker-track"><span>DATA, BUT MAKE IT TALK</span><b>✦</b><span>DESIGN WITH A POINT OF VIEW</span><b>✦</b><span>BUILD. BREAK. ITERATE.</span><b>✦</b><span>DATA, BUT MAKE IT TALK</span><b>✦</b><span>DESIGN WITH A POINT OF VIEW</span><b>✦</b><span>BUILD. BREAK. ITERATE.</span><b>✦</b></div></div>
+
+        <section id="about" class="about section-pad">
+            <div class="container">
+                <div class="section-top reveal"><p class="index">( 001 )</p><p class="eyebrow">THE SHORT VERSION</p></div>
+                <div class="about-layout"><h2 class="display-heading reveal">A technical mind<br>with a <em>restless</em> creative side.</h2><div class="about-detail reveal"><p>I’m the person who enjoys an untidy dataset, a clean UI, and the moment an idea finally clicks. From machine learning and analytics to full-stack work, content, and fitness — I like learning in public and making work that feels alive.</p><a href="#skills" class="text-link">See my toolkit <i data-lucide="arrow-down-right"></i></a></div></div>
+                <div class="focus-grid">
+                    <article class="focus-card reveal"><span class="focus-number">01</span><i data-lucide="brain-circuit"></i><h3>Intelligence</h3><p>ML, NLP and GenAI systems that turn raw signals into smarter decisions.</p></article>
+                    <article class="focus-card focus-card-acid reveal"><span class="focus-number">02</span><i data-lucide="chart-no-axes-combined"></i><h3>Clarity</h3><p>Data stories and dashboards that make the next move obvious.</p></article>
+                    <article class="focus-card reveal"><span class="focus-number">03</span><i data-lucide="layers-3"></i><h3>Experience</h3><p>Digital products with thoughtful flows, memorable detail and real personality.</p></article>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work section-pad dark-section">
+            <div class="container">
+                <div class="section-top reveal"><p class="index">( 002 )</p><p class="eyebrow">SELECTED WORK</p><p class="section-side-note">A small collection of things<br>I’ve designed, analysed & built.</p></div>
+                <div class="work-heading-row reveal"><h2 class="display-heading">Projects with<br><em>range.</em></h2><div class="project-filters" aria-label="Filter projects"><button class="filter-button active" data-filter="all">Everything</button><button class="filter-button" data-filter="product">Digital builds</button><button class="filter-button" data-filter="data">Data stories</button><button class="filter-button" data-filter="ml">ML experiments</button></div></div>
+                <div id="projects-grid" class="projects-grid" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <section id="data" class="data-section section-pad">
+            <div class="container">
+                <div class="section-top reveal"><p class="index">( 003 )</p><p class="eyebrow">DATA ANALYST MODE</p><p class="section-side-note">Finding the why<br>behind the numbers.</p></div>
+                <div class="data-showcase"><div class="data-copy reveal"><p class="scribble">zoom out. find the pattern.</p><h2 class="display-heading">Numbers should<br>have a <em>narrative.</em></h2><p>I use exploratory analysis, visualisation and dashboard thinking to turn messy information into insights people can actually use.</p><div class="tool-row"><span>PYTHON</span><span>SQL</span><span>POWER BI</span><span>EXCEL</span><span>TABLEAU</span></div></div>
+                    <div class="dashboard-card reveal" aria-label="Decorative analytics dashboard preview"><div class="dashboard-header"><span>ANALYTICS / OVERVIEW</span><i data-lucide="more-horizontal"></i></div><div class="metric-row"><div><small>REVENUE</small><strong>₹8.4L</strong><em>+18.6%</em></div><div><small>RETENTION</small><strong>82.4%</strong><em>+6.2%</em></div></div><div class="chart-area"><div class="chart-label"><span>Growth trajectory</span><span>JAN — DEC</span></div><svg viewBox="0 0 460 160" role="img" aria-label="An upward trending line chart"><path d="M0 130 C30 116, 44 128, 75 105 S112 116, 145 89 S184 104, 215 71 S259 90, 293 53 S338 69, 371 35 S415 39, 460 10" fill="none" stroke="currentColor" stroke-width="4"/><path d="M0 130 C30 116, 44 128, 75 105 S112 116, 145 89 S184 104, 215 71 S259 90, 293 53 S338 69, 371 35 S415 39, 460 10 V160 H0Z" fill="url(#gradient)" opacity=".24"/><defs><linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#d5ff3f"/><stop offset="1" stop-color="#d5ff3f" stop-opacity="0"/></linearGradient></defs></svg></div><div class="dashboard-bars"><span style="height:35%"></span><span style="height:57%"></span><span style="height:46%"></span><span style="height:82%"></span><span style="height:66%"></span><span style="height:94%"></span><span style="height:75%"></span></div></div>
+                </div>
+                <div class="mini-project-list" id="data-project-list"></div>
+            </div>
+        </section>
+
+        <section id="ml" class="ml-section section-pad dark-section">
+            <div class="container">
+                <div class="section-top reveal"><p class="index">( 004 )</p><p class="eyebrow">MACHINE LEARNING LAB</p><p class="section-side-note">Teaching systems<br>to see the signal.</p></div>
+                <div class="ml-header reveal"><h2 class="display-heading">Ideas, <em>trained.</em><br>Models, shipped.</h2><p>From classification and prediction to natural-language experiments, I build practical ML work with a focus on understanding the data first.</p></div><div id="ml-project-list" class="ml-project-list"></div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section section-pad"><div class="container"><div class="section-top reveal"><p class="index">( 005 )</p><p class="eyebrow">THE TOOLKIT</p></div><div class="skills-heading-row reveal"><h2 class="display-heading">A few things I’m<br><em>good at.</em></h2><p>Always in beta. Always making room for one more rabbit hole.</p></div><div class="skills-grid" id="skills-grid"></div></div></section>
+
+        <section id="experience" class="experience section-pad dark-section"><div class="container"><div class="section-top reveal"><p class="index">( 006 )</p><p class="eyebrow">THE JOURNEY SO FAR</p></div><h2 class="display-heading reveal">A few <em>plot twists.</em></h2><div class="experience-list">
+            <article class="experience-item reveal"><span class="experience-year">NOV 2025 — FEB 2026</span><div><p class="experience-type">HARTALKERS INNOVATION · DATA ANALYTICS</p><h3>Data Analyst Intern.</h3><p>Worked as a Data Analyst Intern. Currently exploring new opportunities, learning LLMs and going deeper into a fresh tech stack.</p></div><img src="images/2025.jpg" alt="Anand's Data Analyst internship journey at Hartalkers Innovation"></article>
+            <article class="experience-item reveal"><span class="experience-year">APR 2025</span><div><p class="experience-type">IDEATHON PCU · PUNE</p><h3>5th rank & Best UI.</h3><p>Recognised for an innovative concept and a user experience designed to stand out.</p></div><img src="images/pune.jpg" alt="Ideathon PCU Pune achievement"></article>
+            <article class="experience-item reveal"><span class="experience-year">2024 — 25</span><div><p class="experience-type">STARIAL · WEB DEVELOPMENT</p><h3>Web Developer Intern.</h3><p>Built and contributed to full-stack web work during a five-month internship.</p></div><img src="images/starial.jpg" alt="Starial Web Developer internship"></article>
+            <article class="experience-item reveal"><span class="experience-year">NOV 2024</span><div><p class="experience-type">IICH · MUJ</p><h3>Top finalist at IICH, MUJ.</h3><p>Reached the finalist stage at IICH, MUJ, with ISRO representatives serving as judges.</p></div><img src="images/iic.jpg" alt="IICH MUJ finalist achievement"></article>
+            <article class="experience-item reveal"><span class="experience-year">NOV / DEC 2024</span><div><p class="experience-type">I LOVE HACKATHON · INDORE</p><h3>Top 5 & Top 10 finalist.</h3><p>Tested ideas under pressure, presented solutions and made the final rounds among hundreds of teams.</p></div><img src="images/indore2.jpg" alt="I Love Hackathon Indore achievement"></article>
+        </div></div></section>
+
+        <section id="contact" class="contact section-pad"><div class="container contact-shell reveal"><p class="scribble contact-scribble">your move ↓</p><p class="eyebrow">HAVE A GOOD IDEA?</p><h2>Let’s make<br>something <em>worth<br>looking at.</em></h2><div class="contact-bottom"><a class="button button-dark" href="mailto:anandvaidya46@gmail.com">anandvaidya46@gmail.com <i data-lucide="arrow-up-right"></i></a><div class="social-links" aria-label="Social links"><a href="https://www.linkedin.com/in/anand-vaidya-4b98a230b/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img class="social-logo" src="images/linkedin-logo.webp" alt="" aria-hidden="true"></a><a href="https://github.com/anandvaidya21" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img class="social-logo" src="images/github-logo.png" alt="" aria-hidden="true"></a><a href="https://x.com/Anand_Vaidya_" target="_blank" rel="noopener noreferrer" aria-label="X"><span class="x-icon" aria-hidden="true">𝕏</span></a><a href="https://www.instagram.com/anandfilms._/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img class="social-logo" src="images/instagram-logo.avif" alt="" aria-hidden="true"></a><a href="mailto:anandvaidya46@gmail.com" aria-label="Email"><i data-lucide="mail"></i></a></div></div></div></section>
+    </main>
+    <footer><div class="container"><p>© <span id="year"></span> ANAND VAIDYA</p><p>DESIGNED WITH INTENT · BUILT WITH CODE</p><a href="#top" aria-label="Back to top"><i data-lucide="arrow-up"></i></a></div></footer>
+    <script src="script.js"></script>
+</body>
+</html>
