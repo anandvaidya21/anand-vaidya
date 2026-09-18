@@ -69,28 +69,6 @@ My interests include:
 - Render
 - Kaggle
 
-## 🚀 Featured Projects
-
-### ULTRON AI
-AI-powered recruitment intelligence system designed to analyze and rank candidates based on job requirements and contextual relevance.
-
-**Tech:** Python, FastAPI, AI/ML, NLP, JavaScript
-
-### GenRect
-AI-based image classification and deepfake detection project for identifying real and manipulated images.
-
-**Tech:** Python, PyTorch, EfficientNet, Computer Vision
-
-### Social Growth AI
-AI-powered social media growth assistant designed to help analyze content and generate strategies for improving social media presence.
-
-**Tech:** Python, AI/ML, GenAI
-
-### Academic Chatbot
-Explainable academic chatbot for college information retrieval using intent classification and natural language processing.
-
-**Tech:** Python, NLP, TF-IDF, Logistic Regression, Gemini API
-
 ## 📂 Repository Structure
 
 ```text
